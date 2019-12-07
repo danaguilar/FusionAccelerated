@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hurt.wav-5f100ecff19812f16384c1214f757fe4.sample"
+
+[deps]
+
+source_file="res://warped city files/demo/assets/sounds/hurt.wav"
+dest_files=[ "res://.import/hurt.wav-5f100ecff19812f16384c1214f757fe4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

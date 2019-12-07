@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://abstract-platformer-370-assets/Spritesheet/spritesheet_tiles.png" type="Texture" id=1]
+
+[node name="Tilesheet" type="Node2D"]
+
+[node name="ramp_up" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 65, 0, 64, 65 )
+
+[node name="ramp_down" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 65, 65, 64, 64 )
+
+[node name="ramp_up_squiggle" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 65, 130, 64, 65 )
+
+[node name="island" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 65, 260, 65, 65 )
+
+[node name="edge_right" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 65, 324, 64, 65 )
+
+[node name="edge_left" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 455, 65, 64 )
+
+[node name="blackness" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 390, 650, 64, 64 )
+
+[node name="green" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 520, 65, 64 )
+
+[node name="straight" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 184, 64, 64 )
