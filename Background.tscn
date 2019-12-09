@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Background.gd" type="Script" id=1]
+[ext_resource path="res://skyline_group.gd" type="Script" id=2]
+[ext_resource path="res://close_building_group.gd" type="Script" id=3]
+[ext_resource path="res://near_building_group2.gd" type="Script" id=4]
+
+[node name="Background" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="skyline_group" type="Node2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="far_building_group" type="Node2D" parent="."]
+script = ExtResource( 3 )
+starting_textures = 20
+
+[node name="near_building_group2" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 4 )
+starting_textures = 7

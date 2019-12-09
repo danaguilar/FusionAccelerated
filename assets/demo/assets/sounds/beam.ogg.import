@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/beam.ogg-7f9cf07d2f9a5e122921246a047bdc18.oggstr"
+
+[deps]
+
+source_file="res://assets/demo/assets/sounds/beam.ogg"
+dest_files=[ "res://.import/beam.ogg-7f9cf07d2f9a5e122921246a047bdc18.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
