@@ -16,6 +16,5 @@ script = ExtResource( 3 )
 starting_textures = 20
 
 [node name="near_building_group2" type="Node2D" parent="."]
-visible = false
 script = ExtResource( 4 )
 starting_textures = 7

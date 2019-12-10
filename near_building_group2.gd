@@ -20,8 +20,7 @@ func _process(delta):
 	
 func create_sprite(offset):
 	var s = Sprite.new()
-	if randi() % 2  > 0:
-		s.texture = load(textures[0])
+	s.texture = load(textures[0])
 	var x_pos =  texture_size * (get_children().size()-1) + offset
 	s.position = Vector2(x_pos ,143)
 	add_child(s)
